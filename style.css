@@ -61,8 +61,9 @@ header {
 
                 .inicio {
                     color: #22D3EE;
-                    text-decoration: underline;
-                    
+                    border-bottom: .2rem solid #22D3EE;
+                    padding-bottom: .5rem;
+
                 }
 
                 a {
@@ -91,6 +92,7 @@ header {
         transition: all 0.3s ease-in-out;
         padding: 0rem 1.2rem;
         margin-right: 4rem;
+        box-shadow: 0 0 35px rgba(138, 43, 226, 1.00);
 
         &:hover {
             background-color: #6D28D9;
