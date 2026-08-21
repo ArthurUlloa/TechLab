@@ -243,7 +243,24 @@ main {
         height: 0.1rem;
     }
 
-    section.final {
+    h3{
+        font-size: 1.5rem;
+        color: #fff;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
 
+    section.final {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        margin-bottom: 3rem;
+
+        img {
+            width: 5rem;
+            gap: 2rem;
+            
+        }
     }
 }
